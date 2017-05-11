@@ -1,0 +1,24 @@
+{
+    "name": "liva/liva",
+    "description": "The Liva Framework.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liron.li",
+            "email": "liron.li@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.4",
+        "illuminate/routing": "^5.4",
+        "illuminate/events": "^5.4",
+        "illuminate/view": "^5.4",
+        "filp/whoops": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
