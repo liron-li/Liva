@@ -5,12 +5,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Container\Container;
 
-class IndexController
+class IndexController extends BaseController
 {
     public function index()
     {
-        $app = Container::getInstance();
-        $view = $app->make('view');
-        return $view->make('index')->with('data', ['foo', 'bar']);
+        return $this->view('index')->with('data', ['foo', 'bar']);
     }
 }
