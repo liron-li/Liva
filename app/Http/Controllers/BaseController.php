@@ -14,7 +14,7 @@ class BaseController
      */
     public function __construct()
     {
-        $this->app = Container::getInstance();;
+        $this->app = Container::getInstance();
     }
 
     /**
